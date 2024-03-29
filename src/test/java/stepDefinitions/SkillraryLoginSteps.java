@@ -14,7 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 //These are the changes done for skillrary
 public class SkillraryLoginSteps {
 	WebDriver driver;
-
+//Before hook
 	@Before
 	public void beforeScenario() {
 		WebDriverManager.chromedriver().setup();
